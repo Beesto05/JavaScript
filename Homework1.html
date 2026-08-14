@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Grocery Shop</title>
+</head>
+<body>
+<h2>Grocery Shop Calculator</h2>
+<script>
+let riceName = "Rice";
+let sugarName = "Sugar";
+let wheatName = "Wheat";
+
+let ricePrice = 60;
+let sugarPrice = 50;
+let wheatPrice = 40;
+
+let riceQuantity = 2;
+let sugarQuantity = 3;
+let wheatQuantity = 1;
+
+let riceCost = ricePrice * riceQuantity;
+let sugarCost = sugarPrice * sugarQuantity;
+let wheatCost = wheatPrice * wheatQuantity;
+
+let totalBill = riceCost + sugarCost + wheatCost;
+
+console.log("Item:", riceName);
+console.log("Price:", ricePrice);
+console.log("Quantity:", riceQuantity);
+console.log("Cost:", riceCost);
+
+console.log("Item:", sugarName);
+console.log("Price:", sugarPrice);
+console.log("Quantity:", sugarQuantity);
+console.log("Cost:", sugarCost);
+
+console.log("Item:", wheatName);
+console.log("Price:", wheatPrice);
+console.log("Quantity:", wheatQuantity);
+console.log("Cost:", wheatCost);
+
+console.log("Total Bill:", totalBill);
+sugarQuantity = 5;
+
+sugarCost = sugarPrice * sugarQuantity;
+
+totalBill = riceCost + sugarCost + wheatCost;
+
+console.log("----- UPDATED BILL -----");
+        console.log("Updated Sugar Quantity:", sugarQuantity);
+        console.log("Updated Sugar Cost:", sugarCost);
+        console.log("Updated Total Bill:", totalBill);
+</script>
+
+</body>
+</html>
