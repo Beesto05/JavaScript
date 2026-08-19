@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Game Result Generator</title>
+</head>
+<body>
+    <h3>JavaScript Math Methods – Game Result</h3>
+    <script>
+        var mysteryLevel = Math.floor(Math.random() * 50) + 1;
+
+        var userScoreString = "45";
+        var userScore = Number(userScoreString);
+
+        var difference = Math.abs(mysteryLevel - userScore);
+
+        var squareRoot = Math.sqrt(userScore);
+
+        var pi = Math.PI;
+
+        var multipliedValue = "20" * 5;
+
+        var highest = Math.max(10, 20, mysteryLevel);
+        var lowest = Math.min(10, 20, mysteryLevel);
+
+        document.write("Mystery Level: " + mysteryLevel + "<br>");
+        document.write("User Score: " + userScore + "<br>");
+        document.write("Absolute Difference: " + difference + "<br>");
+        document.write("Square Root: " + squareRoot + "<br>");
+        document.write("Pi: " + pi + "<br>");
+        document.write('"20" * 5: ' + multipliedValue + "<br>");
+        document.write("Highest Value: " + highest + "<br>");
+        document.write("Lowest Value: " + lowest);
+    </script>
+</body>
+</html>
