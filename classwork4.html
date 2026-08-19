@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>JS Math & Conversion</title>
+</head>
+<body>
+    <h4>JavaScript Math Operations</h4>
+    <button ></button>
+<script>
+var randomNumber = Math.floor(Math.random() * 100) + 1;
+var userScoreString = "75";
+var userScore = Number(userScoreString);
+var difference = randomNumber - userScore;
+var roundedSquareRoot = Math.round(Math.sqrt(userScore));
+var pi = Math.PI;
+var implicitConversion = "50" * 2;
+
+document.write("Random number: " + randomNumber + "<br>");
+document.write("User score: " + userScore + "<br>");
+document.write("Difference: " + difference + "<br>");
+document.write("Rounded square root: " + roundedSquareRoot + "<br>");
+document.write("Pi: " + pi + "<br>");
+document.write('"50" * 2: ' + implicitConversion);
+
+    </script>
+</body>
+</html>
